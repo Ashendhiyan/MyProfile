@@ -833,3 +833,30 @@ education-content .content pre{
 .footer-iconTop a:hover i{
     color: #16a085;
 }
+
+
+    /*BREAKPOINTS*/
+
+@media (max-width: 1200px) {
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 991px) {
+    .header{
+        padding: 2rem 4%;
+    }
+
+    section{
+        padding: 10rem 4% 2rem;
+    }
+
+    .home{
+        padding: 0 4%;
+    }
+
+    .footer{
+        padding: 2rem 4%;
+    }
+}
