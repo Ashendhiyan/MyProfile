@@ -16,6 +16,7 @@
     <title>Portfolio html</title>
 
     <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!--    box icons-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -23,7 +24,8 @@
 
 <body>
 <header class="header">
-    <img src="assets/mylogo.png" style="margin-left: -80px" width="200">
+    <img src="assets/img/mylogo.png" style="margin-left: -80px" width="200">
+    <div class='bx bx-menu' id="menu-icon"></div>
     <div align="right">
         <nav class="navbar">
             <a class="active" href="#m1"> Home</a>
@@ -41,87 +43,113 @@
 
 <br><br>
 
-<section class="homepage" id="m1"><br><br><br><br><br><br><br>
+<section class="container" id="m1">
+    <section class="row">
+        <section class="col-lg-6" style="margin-bottom: 100px">
+            <h1 font size="6" style="color: #D35400">Hey..! I’m Ashen,<span>A</span></h1>
+            <h1 font size="6">FULL STACK DEVELOPER</h1>
+            <h1>BASED IN <span font size="6" style="color: #32FF7E">SRI LANKA</span></h1><br>
 
-    <table align="right" border="0" class="home" width="80%">
-        <tbody class="home-content" style="margin-bottom: 100px">
-        <tr>
-            <td><p style="margin-top: 50px; margin-left: -150px"><font size="6" style="color: #D35400">Hey..! I’m
-                Ashen,A</font><br><font size="6">FULL STACK
-                DEVELOPER<br> BASED IN <font size="6" style="color: #32FF7E">SRI
-                    LANKA</font></font><br><br><font size="2">I’m currently learning Software Engineer in Institute <br>of
-                Software Engineering</font><br><br><br>
-                <span class="btn-box">
-                <a class="btn" href="#">Hire Me</a>
+            <h5 font size="2">I’m currently learning Software Engineer in Institute</h5>
+            <h5 font size="2">Software Engineering</h5><br>
+
+            <span class="btn-box">
+                <a class="btn0" href="#">Hire Me</a>
             </span>
-                <div class="home-sci">
-                    &nbsp; &nbsp; &nbsp;&nbsp; <a href="#"><i class='bx bxl-github'></i></a>
-                    <a href="https://twitter.com/ashenDhiyan"><i class='bx bxl-twitter'></i></a>
-                    <a href="https://www.instagram.com/ashen_dhiyan/"><i class='bx bxl-instagram-alt'></i></a>
-                    <a href="https://www.facebook.com/ggad.perera.5/"><i class='bx bxl-facebook'></i></a>
-                    <a href="https://stackoverflow.com/users/21191083/ashen-dhiyan-perera"><i
-                            class='bx bxl-stack-overflow'></i></a>
-                    <a href="https://www.hackerrank.com/ashen13516">
-                        <img src="assets/240px-HackerRank_Icon-1000px.png" width="20">
-                    </a>
-                    <a href="https://www.linkedin.com/in/ashen-dhiyan-96a056224/"><i class='bx bxl-linkedin'></i></a>
-                </div>
-                </p></td>
-            <td>
-                <div class="main-img">
-                    <img alt="" height="300" src="assets/1668443004246.jpeg" width="300"/>
-                    <span class="circle-spin"></span>
-                </div>
+            <div class="home-sci">
+                &nbsp; &nbsp; &nbsp;&nbsp; <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="https://twitter.com/ashenDhiyan"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/ashen_dhiyan/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.facebook.com/ggad.perera.5/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://stackoverflow.com/users/21191083/ashen-dhiyan-perera"><i
+                        class='bx bxl-stack-overflow'></i></a>
+                <a href="https://www.hackerrank.com/ashen13516">
+                    <img src="assets/img/240px-HackerRank_Icon-1000px.png" width="20">
+                </a>
+                <a href="https://www.linkedin.com/in/ashen-dhiyan-96a056224/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </section>
+
+        <section class="col-lg-6">
+            <div class="main-img">
+                <img alt="" class="home-img" src="assets/img/1668443004246.jpeg"/>
+                <span class="circle-spin"></span>
+            </div>
+            <div class="circles-set">
                 <div class="circles"><a href="#"></a></div>
                 <div class="circles1"><a href="#"></a></div>
                 <div class="circles2"><a href="#"></a></div>
                 <div class="circles3"><a href="#"></a></div>
                 <div class="circles4"><a href="#"></a></div>
                 <div class="circles5"><a href="#"></a></div>
-            </td>
-        </tr>
-        </tbody>
-    </table>
+            </div>
+        </section>
+    </section>
 </section>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <!--gallery section design-->
 
 
-<section style="margin-top: 20rem" id="m2"><br><br><br><br>
+<section class="gallery" id="m2" style="margin-top: 20rem"><br><br><br><br>
 
     <div>
-        <font class="heading" style="color: #32FF7E">Ga<span style="color: white">ll</span><span
+        <font class="GalleryHeading" style="color: #32FF7E">Ga<span style="color: white">ll</span><span
                 style="color: #FFD32A">ery</span></font> <br><br>
     </div>
 
-    <div class="gallery">
-        <div>
-            <div class="pictures">
-                <div class="pic2"><img src="assets/1668443004246.jpeg" width="300"></div>
-                <div class="pic3"><img src="assets/ab.png.jpg" width="300"></div>
-                <div class="pic5"><img src="assets/ash.jpg" width="300"></div>
+    <div class="row" style="justify-content: center">
+        <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+            <img
+                    alt="Boat on Calm Water"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    src="assets/img/1668443004246.jpeg"
+            />
 
-                <div class="pic6"><img src="assets/aa.png.jpg" width="300"></div>
-                <div class="pic1"><img ; src="assets/IMG-20210402-WA0001.jpg" width="300"></div>
-                <div class="pic4"><img src="assets/2.jpg" width="300"></div>
-
-            </div>
+            <img
+                    alt="Wintry Mountain Landscape"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    src="assets/img/ab.png.jpg"
+            />
         </div>
 
-        <br><br><br><br><br><br>
-        <hr>
+        <div class="col-lg-3 mb-4 mb-lg-0">
+            <img
+                    alt="Mountains in the Clouds"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    src="assets/img/aa.png.jpg"
+            />
+
+            <img
+                    alt="Boat on Calm Water"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    src="assets/img/ash.jpg"
+            />
+        </div>
+
+        <div class="col-lg-3 mb-4 mb-lg-0">
+            <img
+                    alt="Waves at Sea"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    src="assets/img/IMG-20210402-WA0001.jpg"
+            />
+
+            <img
+                    alt="Yosemite National Park"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    src="assets/img/2.jpg"
+            />
+        </div>
     </div>
 </section>
 
-    <!--about section design-->
+<!--about section design-->
 
 
-    <section class="about" id="m3">
-        <h2 class="abuotHeading">About <u style="color: #FFD32A">Me</u></h2> <br><br>
-        <div align="center">
-            <br><br><br><br>
-            <pre>
+<section class="about" id="m3">
+    <h2 class="abuotHeading">About <u style="color: #FFD32A">Me</u></h2> <br><br>
+    <div align="center">
+        <br><br><br><br>
+        <pre>
                          <div style="margin-top: -10rem;margin-left: -10rem"><font size="6.5rem" style="color: #05C46B">Personal information</font></div><br><br><br>
             <div class="about-details">
                        <div style="margin-left: -11rem"><span>First Name</span> : Ashen             <span>Last Name</span> : Dhiyan</div><br><br>
@@ -148,12 +176,12 @@
 
                 </div>
                 </pre>
-            <div class="btn-box1" style="margin-top: -15rem">
-                <a class="btn1" href="#">Download CV</a>
-            </div>
+        <div class="btn-box1" style="margin-top: -15rem">
+            <a class="btn1" href="#">Download CV</a>
         </div>
-        <br><br><br><br><br><br>
-    </section>
+    </div>
+    <br><br><br><br><br><br>
+</section>
 
 <!--skills section design-->
 
@@ -166,27 +194,27 @@
 
             <div class="skills-box">
                 <div class="skills-content">
-                    <div class="progress">
+                    <div class="skill-progress">
                         <h3>HTML <span>90%</span></h3>
                         <div class="bar"><span></span></div>
                     </div>
 
-                    <div class="progress">
+                    <div class="skill-progress">
                         <h3>Java <span>60%</span></h3>
                         <div class="bar"><span></span></div>
                     </div>
 
-                    <div class="progress">
+                    <div class="skill-progress">
                         <h3>JavaScript <span>40%</span></h3>
                         <div class="bar"><span></span></div>
                     </div>
 
-                    <div class="progress">
+                    <div class="skill-progress">
                         <h3>Css <span>75%</span></h3>
                         <div class="bar"><span></span></div>
                     </div>
 
-                    <div class="progress">
+                    <div class="skill-progress">
                         <h3>Mysql <span>85%</span></h3>
                         <div class="bar"><span></span></div>
                     </div>
@@ -202,11 +230,12 @@
 <!--education section design-->
 
 <section class="education" id="m5" style="margin-top: -10rem"><br><br><br><br><br>
-<div align="center">
-    <font class="educationHeading" size="2" style="color: #32FF7E">EXPERIENCE<span style="color: #FFFFFF"> &</span><span
-            style="color: #FFFF00"> EDUCATION</span></font>
-</div>
-<br><br><br>
+    <div align="center">
+        <font class="educationHeading" size="2" style="color: #32FF7E">EXPERIENCE<span
+                style="color: #FFFFFF"> &</span><span
+                style="color: #FFFF00"> EDUCATION</span></font>
+    </div>
+    <br><br><br>
 
     <div class="education-row">
         <div class="education-column">
@@ -299,70 +328,79 @@
 
 <!--project section design-->
 
-<section class="project" style="margin-top: -7rem" id="m6"><br>
-<h2 class="projectHeading"><span style="color: #32FF7E">My </span><u style="color:#FFFF00">Projects</u></h2>
+<section class="project" id="m6" style="margin-top: -7rem"><br>
+    <h2 class="projectHeading"><span style="color: #32FF7E">My </span><u style="color:#FFFF00">Projects</u></h2>
 
-    <table align="right" border="0" width="85%" style="margin-top: -6rem">
-        <tbody>
-        <tr align="left">
-            <td>
-                <img alt="1st sem project" src="assets/1st%20project%20ui.png" width="300">
-                <h1><font size="3">Hotel Managment System</font></h1>
-                <a style="color:#1289A7 " href="https://github.com/Ashendhiyan/Hotel-Managment-System.git">
-                    https://github.com/Ashendhiyan/Hotel-Managment-System.git
-                </a>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <a href="https://github.com/Ashendhiyan/School_Management_System.git">
+                <img src="assets/img/school-management_system.jpg" alt="">
+            </a>
+            <div class="portfolio-layer">
+                <h4>School Management System</h4>
+                    <p>java</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
 
+        <div class="portfolio-box">
+            <img src="assets/img/Hotel_Management_system.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Hotel Management System</h4>
+                <p>ui /ux</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
 
-            </td>
-            <td>
-                <img alt="2nd sem project" height="220" src="assets/2nd%20sem%20ui.png" width="300">
-                <h1><font size="3">SWS Managment System</font></h1>
-                <a style="color:#1289A7" href="https://github.com/Ashendhiyan/SWSms-layeredarchitecture.git">
-                    https://github.com/Ashendhiyan/SWSms-layeredarchitecture.git
-                </a>
-            </td>
-        </tr>
-        </tbody>
-    </table>
-</section><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="portfolio-box">
+            <img src="assets/img/connect%204%20game.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Connect 4 Game</h4>
+                <p>java / javaFx</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="assets/img/spice_wholesale_shop.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Spice Wholesale Management System</h4>
+                <p>java / javaFx</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <!--Assignments section design-->
 
 
-<section class="assignments" style="margin-top: -7rem" id="m7"><br>
+<section class="assignments" id="m7" style="margin-top: -7rem"><br>
     <h2 class="projectHeading"><span style="color: white">Assignments</span></h2>
 
-    <table align="right" border="0" width="85%" style="margin-top: -6rem">
-        <tbody>
-        <tr align="left">
-            <td>
-                <img alt="1st sem project" src="assets/1st%20project%20ui.png" width="300">
-                <h1><font size="3">Hotel Managment System</font></h1>
-                <a style="color:#1289A7 " href="https://github.com/Ashendhiyan/Hotel-Managment-System.git">
-                    https://github.com/Ashendhiyan/Hotel-Managment-System.git
-                </a>
+    <div class="testimonial-wrapper">
+        <div class="testimonial-box">
+            <div class="testimonial-content">
+                <div class="testimonial-slide">
+                    <img src="assets/img/MOckup.png" alt="">
+                    <h3>Assignment-01</h3>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
-            </td>
-            <td>
-                <img alt="2nd sem project" height="220" src="assets/2nd%20sem%20ui.png" width="300">
-                <h1><font size="3">SWS Managment System</font></h1>
-                <a style="color:#1289A7" href="https://github.com/Ashendhiyan/SWSms-layeredarchitecture.git">
-                    https://github.com/Ashendhiyan/SWSms-layeredarchitecture.git
-                </a>
-            </td>
-        </tr>
-        </tbody>
-    </table>
-</section><br><br><br><br><br><br><br><br><br><br><br><br>
+</section>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <!--contact section design-->
 <section class="contact" id="m8"><br>
-<h2 class="contactHeading"><u>Contact</u><span style="color:#32FF7E "> Me!</span></h2>
+    <h2 class="contactHeading"><u>Contact</u><span style="color:#32FF7E "> Me!</span></h2>
 
     <form action="#">
         <div class="input-box">
@@ -399,7 +437,7 @@
     </form>
     <br><br><br><br><br><br><br><br>
 
-    <div contact-details>
+    <div class="contact-details">
         <div class="callMe">
             <h4>CALL ME</h4><br><br>
             <a href="tel:0769151600">(+94) 769151600</a>
@@ -418,24 +456,22 @@
                 Ginigathhena.
             </h5>
         </div>
+    </div>
 
-        <div class="home-sci" style="margin-left: 32rem;margin-top: 7rem">
-            <a href="https://twitter.com/ashenDhiyan"><i class='bx bxl-twitter'></i></a>
-            <a href="https://www.instagram.com/ashen_dhiyan/"><i class='bx bxl-instagram-alt'></i></a>
-            <a href="https://www.linkedin.com/in/ashen-dhiyan-96a056224/"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://www.facebook.com/ggad.perera.5/"><i class='bx bxl-facebook'></i></a>
-            <a href="tel:0769151600"><i class='bx bxl-whatsapp'></i></a>
-
-        </div>
-
+    <div class="contact-sci">
+        <a href="https://twitter.com/ashenDhiyan"><i class='bx bxl-twitter'></i></a>
+        <a href="https://www.instagram.com/ashen_dhiyan/"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="https://www.linkedin.com/in/ashen-dhiyan-96a056224/"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://www.facebook.com/ggad.perera.5/"><i class='bx bxl-facebook'></i></a>
+        <a href="tel:0769151600"><i class='bx bxl-whatsapp'></i></a>
     </div>
 </section>
 
 
 <!--feedback section design-->
 
-<section style="margin-top: 7rem" id="m9"><br>
-    <h2 class="feedbackHeading"><u>Feedback</u></h2>
+<section id="m9" style="margin-top: 7rem"><br>
+    <h2 class="feed-back-Heading" style="color: #32FF7E">Feedback</h2>
 
     <div class="contact">
         <form action="#">
@@ -474,13 +510,13 @@
     <div class="footer-text">
         <p>Copyright &copy; 2023 by Ashen Dhiyan | All Right Reserved.</p>
     </div>
-    
+
     <div class="footer-iconTop">
         <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
     </div>
-    
+
 </footer>
 
-<script src="src/js/script.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
